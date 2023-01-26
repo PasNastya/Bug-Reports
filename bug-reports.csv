@@ -1,0 +1,253 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G31-26","group3.1","Star","Testing Documentation Posrednikava Anastasiya","Anastasiya Pasrednikava","6 Dec 2022","26 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)",,"0"
+"G31-111","group3.1","Star","Гамбургер-меню: не верно отображается информация в поле Statistics","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система.  Pixel 3a API 29, android 10.0 gool play/ 84x","No qase tc # (only for bug)","STR:
+
+1. Открыть  боковое гамбургер-меню  на странице  TO-DO
+2. Выбрать поле Statistics 
+
+Result: в окне Statistics  отображены не верные данные
+
+Expected result: в Statistics  отображены верные данные
+
+![](7.webm){width=92px}","0"
+"G31-106","group3.1","Star","Mobile App Testing Anastasiya Pasrednikava","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G31-109","group3.1","Star","New TO-DO: ввод пробелов в поле ""title"" ошибка не возникает","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система.  Pixel 3a API 29, android 10.0 gool play/ 84x","No qase tc # (only for bug)","STR:
+
+1. Открыть страниц New TO-DO
+2. Ввести пробелы в поле ""title""
+
+Result: открывается окно TO DO MVP. Задача с пробелами создана.
+
+Expected result: возникает сообщение об ошибке 
+
+![](4.webm){width=99px}","0"
+"G31-110","group3.1","Star","Фильтр TO-DO MVP: не фильтрует задачи по позиции ""Active""","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система.  Pixel 3a API 29, android 10.0 gool play/ 84x","No qase tc # (only for bug)","STR:
+
+1. Открыть страниц TO-DO MVP
+2. Открыть фильтр
+3. Выбрать ""Active""
+
+Result: задачи не  фильтруются по позиции ""Active""
+
+Expected result: задачи фильтруются по позиции ""Active""
+
+![](5.webm){width=108px}","0"
+"G31-108","group3.1","Star","New TO-DO: ввод спецсимволов в поле ""title"" удаляет все ранее созданные задачи","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Pixel 3a API 29, android 10.0 gool play/ 84x","No qase tc # (only for bug)","STR:
+
+1. Открыть страниц New TO-DO
+2. Ввести спецсимволы в поле ""title""
+
+Result: в окне to-do-myp удаляются все ранее созданные задачи
+
+Expected result: возникает сообщение об ошибке
+
+![](3.webm){width=144px}","0"
+"G31-107","group3.1","Star","New TO-DO:возврат на главную не осуществляется путем нажатия кнопки ""стрелка назад""","Anastasiya Pasrednikava","17 Jan 2023","17 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Pixel 3a API 29, android 10.0 gool play/ 84x","No qase tc # (only for bug)","STR:
+
+1. Открыть страниц New TO-DO
+2. Нажать кнопку ""стрелка назад"" в верхнем левом углу
+
+Result: возврат на главную не осуществляется путем нажатия кнопки ""стрелка назад""
+
+Expected result: осуществляется возврат на главную путем нажатия кнопки ""стрелка назад""
+
+![](device-2023-01-17-130856.webm){width=155px}
+
+логи: 2023-01-17 13:28:31.632 1792-2438/? E/GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+
+2023-01-17 13:28:31.632 1792-2438/? E/GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8","0"
+"G31-99","group3.1","Star","Checkout - > Payment Information. В поле  PO Number введена латиница. Ошибка не возникает.","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**STR: 1.** Открыть страницу <https://demowebshop.tricentis.com/onepagecheckout>
+
+2\. Нажать кнопку ""Continue"" последовательно на вкладках: ""Billing Address"", ""Shipping Address"" и ""Shipping Method"". 
+
+3\. Выбрать способ оплаты ""Credit Card"" в Radio Button - \> Purchase Order
+
+4\. Нажать кнопку ""Continue""
+
+5\.  В поле  PO Number введена латиница
+
+6\. Нажать кнопку ""Continue""
+
+**Result:**  сообщение об ошибке не возникает. Субмодуль Confirm Order открывается
+
+**Expected result:** Возникает сообщение об ошибке.  Confirm Order не открывается
+
+![](Screenshot_5.jpg){width=70%}","0"
+"G31-94","group3.1","Star","Web App Testing Anastasiya Pasrednikava","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G31-98","group3.1","Star","""Checkout  - > ""Billing Address"". В поле ""City"" введены цифры. Сообщение об ошибке не возникает.","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Открыть страницу <https://demowebshop.tricentis.com/onepagecheckout>
+2. Поля (First name, Last name, Email, Country, City, Address 1, Zip / postal code, Phone number) заполнены валидными данными.
+3. в поле City введены цифры.
+4. Нажать на кнопку ""continue""
+
+**Result:**  открывается модуль - \> Shipping Address
+
+**Expected result:** появляется сообщение об ошибке. Модуль  Shipping Address не открывается
+
+![](Screenshot_3.jpg){width=70%}","0"
+"G31-97","group3.1","Star","""Checkout  - > ""Billing Address"". В поле ""Phone number"" введены латинские буквы. Сообщение об ошибке не возникает.","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Открыть страницу <https://demowebshop.tricentis.com/onepagecheckout>
+2. Поля (First name, Last name, Email, Country, City, Address 1, Zip / postal code) заполнены валидными данными.
+3. в поле Phone number введена латиница.
+4. Нажать на кнопку ""continue""
+
+**Result:**  открывается модуль - \> Shipping Address
+
+**Expected result:** появляется сообщение об ошибке. Модуль  Shipping Address не открывается
+
+![](Screenshot_1.jpg){width=70%}","0"
+"G31-96","group3.1","Star","Переход к модулю ""Checkout"" осуществляется без выбора обязательного элемента Country (*) в поле Поле ""Estimate shipping""","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**STR:** 
+
+**1\.** Открыть страницу: <https://demowebshop.tricentis.com/cart>
+
+2\.  В поле ""checkbox - I agree with the terms of service and I adhere to them unconditionally (read)"" проставить галочку.
+
+3\. Нажать на кнопку ""Cheakcout""
+
+**Result:** Открывается модуль ""Cheakcout""
+
+**Expected result:** Появляется ошибка -\> заполните поле Country (\*) .
+
+![](Demo-Web-Shop-Shopping-Cart.webm)","0"
+"G31-95","group3.1","Star","Shopping Cart - > поле ""checkbox - I agree with the terms of service and I adhere to them unconditionally (read)""  - > нажать на (read) - > Пользовательское соглашение отсутствует..","Anastasiya Pasrednikava","21 Dec 2022","21 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Открыть страницу <https://demowebshop.tricentis.com/cart>
+2. Нажать на (read) в поле ""checkbox - I agree with the terms of service and I adhere to them unconditionally (read)""
+
+**Result:** Открывается окно ""Conditions of use"". Текст пользовательское соглашение отсутствует.
+
+**Expected result:** Открывается окно ""Conditions of use"". Текст пользовательское соглашение присутствуют.
+
+![](1б.jpg){width=70%}","0"
+"G31-49","group3.1","Star","Billing Address (module Add Customer): в поле Address введены латинские буквы и спецсимвол (.). сообщение об ошибке ""Special characters are not allowed""","Anastasiya Pasrednikava","8 Dec 2022","8 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","STR:
+
+1. Открыть сайт
+
+   <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле Address
+3. Введите латинские буквы и спецсимвол (.)
+
+Result: в поле Address сообщение об ошибке ""Special characters are not allowed""
+
+Expected result: в поле Address нет сообщения об ошибке. Спецсимвол (.) разрешен
+
+![](10.png){width=70%}","0"
+"G31-48","group3.1","Star","Billing Address (module Add Customer):  сообщение об ошибке ""Special characters are not allowed"" в поле  First Name после ввода цифр, латиницы и спецсимволов","Anastasiya Pasrednikava","8 Dec 2022","8 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","**STR:**
+
+1. Открыть сайт <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле First Name
+3. Введите цифры, латиницу и спецсимволы
+
+**Result:** отображается сообщение об ошибке **""Special characters are not allowed""** в поле  First Name
+
+**Expected result:** отображается сообщение об ошибке **""Numbers, Cyrillic and special characters are not allowed""** в поле  First Name
+
+![](9.png){width=70%}","0"
+"G31-47","group3.1","Star","Billing Address (module Add Customer): поле Last Name оставить пустым. Нажать кнопку  submit  сообщение об ошибке ""please fill all fields""","Anastasiya Pasrednikava","8 Dec 2022","8 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)"," 1. Открыть сайт
+
+    <https://demo.guru99.com/telecom/addcustomer.php>
+ 2. Выберете поле First Name
+ 3. Введите буквы
+ 4. Выберете поле Last Name
+ 5. Оставить поле пустым
+ 6. Выберете поле Email
+ 7. Введите существующий Email
+ 8. Address
+ 9. Введите адрес
+10. Mobile number
+11. Введите существующий мобильный номер 
+12. нажать submit
+
+    **Result:** отображается сообщение об ошибке ""please fill all fields"" 
+
+    **Expected result:** отображается сообщение об ошибке ""Last Name must not be blank"" в поле Last Name
+
+    ![](Screenshot_11.png){width=70%}","0"
+"G31-46","group3.1","Star","Billing Address (module Add Customer):  в поле Address введены латинские буквы и спецсимвол (,). сообщение об ошибке ""Special characters are not allowed""","Anastasiya Pasrednikava","8 Dec 2022","8 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","STR: 
+
+1. Открыть сайт
+
+   <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле Address
+3. Введите латинские буквы и спецсимвол (,)
+
+Result:   в поле Address  сообщение об ошибке ""Special characters are not allowed""
+
+ Expected result: в поле Address  нет сообщения об ошибке. Спецсимвол (,) разрешен
+
+![](7.png){width=70%}
+
+
+","0"
+"G31-45","group3.1","Star","Billing Address (module Add Customer): встроенная специальная проверка в поле Email не проверяет наличие  доменной зоны","Anastasiya Pasrednikava","7 Dec 2022","7 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","1. Открыть сайт <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле Email
+3.  Введите j@mail.cp
+
+   Result: встроенная специальная проверка в поле Email не проверяет наличие  доменной зоны. Ошибка не выдается.
+
+   Expected result: встроенная специальная проверка в поле Email проверяет наличие  доменной зоны (com.). 
+
+   ![](6.png){width=70%}","0"
+"G31-44","group3.1","Star","Главная страница сервиса Guru99 telecom: отсутствует активная кнопка Delete Customer и описание к ней","Anastasiya Pasrednikava","7 Dec 2022","7 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","**STR:**
+
+1. Открыть сайт
+
+   <https://demo.guru99.com/telecom/index.html>
+
+   **Result:** На главной странице отсутствует активная кнопка Delete Customer и описание к ней
+
+   **Expected result:** На главной странице присутствует активная кнопка Delete Customer и описание к ней
+
+   ![](5.png){width=70%}","0"
+"G31-43","group3.1","Star","Billing Address (module Add Customer):  в поле Mobile number введены буквы. Кнопка Reset не обнуляет сообщение об ошибке ""Characters are not allowed""","Anastasiya Pasrednikava","7 Dec 2022","7 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","**STR:**
+
+1. Открыть сайт
+
+   <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле Mobile number
+3. Введите буквы
+4. В поле Mobile number отображается ошибка ""**Characters are not allowed""**
+5. нажать Reset
+
+**Result:** Кнопка Reset обнуляет буквы введенные в поле  Mobile number, но не обнуляет сообщение об ошибке ""Characters are not allowed""
+
+**Expected result:** Кнопка Reset обнуляет заполненное значение и сообщение об ошибке ""Characters are not allowed""
+
+
+
+
+","0"
+"G31-42","group3.1","Star","Billing Address (module Add Customer):  сообщение об ошибке ""Numbers are not allowed"" в поле  First Name после ввода кириллицы","Anastasiya Pasrednikava","7 Dec 2022","7 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","**STR:** 
+
+1. Открыть сайт <https://demo.guru99.com/telecom/addcustomer.php>
+2. Выберете поле  First Name
+3. Введите кириллицу
+
+**Result:** отображается сообщение об ошибке ""**Numbers are not allowed**"" в поле  First Name
+
+**Expected result:** отображается сообщение об ошибке **""Cyrillic are not allowed""** в поле  First Name
+
+![](3.png){width=70%}","0"
+"G31-41","group3.1","Star","Billing Address (module Add Customer):  название поля (First Name, Last Name, Email, Address и Mobile Number) соответствует placeholder внутри поля для ввода.","Anastasiya Pasrednikava","7 Dec 2022","7 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","STR:
+
+1. Открыть сайт <https://demo.guru99.com/telecom/index.html>
+2. Перейти в раздел Guru99 telecom кнопка Add Customer
+3. Открывается страница Add Customer
+
+Result: нет названия поля для ввода (First Name, Last Name, Email, Address и Mobile Number) . placeholder (First Name, Last Name, Address) внутри поля не соответствует требованиям.
+
+Expected result: название поля (First Name, Last Name, Email, Address и Mobile Number) соответствует placeholder (подсказка) внутри поля для ввода. placeholder (подсказка) внутри поля соответствует требованиям.
+
+![](Screenshot.png){width=70%}","0"
+"G31-28","group3.1","Star","Боковое гамбургер-меню: Активная кнопка  Add Tariff Plans не совпадает с наименование аналогичной кнопкой на главном экране","Anastasiya Pasrednikava","6 Dec 2022","6 Dec 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 10, 64-разрядная операционная система. Google Chrome108.0.5359.95","No qase tc # (only for bug)","**STR:**
+
+1. Открыть сайт
+
+   <https://demo.guru99.com/telecom/index.html>
+2. Открыть боковое гамбургер-меню.
+
+   **Result:** В боковом гамбургер-меню активная кнопка ""Add Tariff Plans"". На главном экране активная кнопка Add Tariff Plan"". ![](Screenshot.png){width=70%}
+
+   **Expected result:** В боковом гамбургер-меню активная кнопка ""Add Tariff Plan"". На главном экране активная кнопка Add Tariff Plan"". ","0"
